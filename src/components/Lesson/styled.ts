@@ -45,6 +45,12 @@ export const IndexBadge = styled.span<{ index: number }>`
   }
 `;
 
+export const LessonTopBanner = styled.div`
+  width: 100%;
+  height: 100px;
+  background-color: #bebebe;
+`;
+
 export const ContentHeader = styled.header`
   display: flex;
   align-items: center;
@@ -91,4 +97,15 @@ export const ContentItem = styled.li`
 
 export const SelectedTitle = styled.h1`
   margin: 16px;
+`;
+
+export const BottomArea = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  button {
+    margin: 0 5px;
+  }
 `;

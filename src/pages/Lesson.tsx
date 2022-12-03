@@ -1,11 +1,11 @@
 import React from "react";
 import MobileLayout from "../components/Layout";
 import LessonCard from "../components/Lesson/Card/LessonCard";
-import LessonTopBanner from "../components/Banner/LessonTopBanner";
 import LeftFullModal from "../components/Modal/LeftFullModal";
 import { Lesson } from "../components/Lesson/types";
 import LessonContent from "./LessonContent";
 import Menu from "../components/Header/Menu";
+import { LessonTopBanner } from "../components/Lesson/styled";
 
 const LessonPage = () => {
   const [showModal, setShowModal] = React.useState(false);
