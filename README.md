@@ -1,15 +1,13 @@
-# 🚀 Welcome to your new awesome project!
+# Langdy clone
 
-This project has been created using **webpack-cli**, you can now run
+### installation
 
-```
-npm run build
-```
-
-or
-
-```
-yarn build
+```bash
+$ yarn
 ```
 
-to bundle your application
+### development
+
+```bash
+$ yarn start
+```
