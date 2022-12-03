@@ -3,7 +3,7 @@ import { ValueOf } from "../types";
 
 export const Path = {
   ROOT: "/",
-  LESSON: "lesson",
+  LESSON: "/lesson",
   SELECTED_LESSON: "/lesson/selected",
 };
 
